@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Costi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../sources/d3/d3.min.js"></script>
+  <link rel="stylesheet" href="../sources/Bootstrap/css/bootstrap.min.css">
+  <script src="../sources/jquerry/jquery-3.3.1.min.js"></script>
+  <script src="../sources/Bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/Main.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm fixed-top" id="nav">
+    <a class="navbar-brand" href="Home.html" id="icon">
+	    <img src="..\img\logo 4 - Dark.png" alt="logo" style="width:40px;">
+	  </a>
+    <span class="navbar-text">
+			Costi Inc.
+		</span>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="Home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Entertainment.html">Entertainment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ASAS.html">ASAS</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="slide" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slide" data-slide-to="0" class="active"></li>
+      <li data-target="#slide" data-slide-to="1"></li>
+      <li data-target="#slide" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/Amal+Banner.png" alt="Amal+" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Watch Amal + Episode 2</h3>
+          <p>Gear up for an all new episode of Amal+ by watching past videos!</p>
+          <div class="container">
+            <ul class="nav">
+              <li class="nav-item">
+                <button type="button" class="btn btn-light">Watch Now</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-link">All Episodes</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../img/Ethan show Banner.png" alt="The Ethan Show" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>New Ethan Show Episode</h3>
+          <p>A brand new episode of the Ethan Show is here!. Stay tuned for more!</p>
+          <div class="container">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="https://www.youtube.com/watch?v=Wq2LgBOarp4"><button type="button" class="btn btn-light">Watch Episode 3</button></a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-link">All Episodes</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../img/Georges Time Banner.png" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>New Annoucement Incoming</h3>
+          <p>A new special anouncement involving Georges is coming soon.</p>
+          <div class="container">
+            <ul class="nav">
+              <li class="nav-item">
+                <button type="button" class="btn btn-light">Costi Entertainment</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#slide" data-slide="prev">
+	    <span class="carousel-control-prev-icon"></span>
+	  </a>
+    <a class="carousel-control-next" href="#slide" data-slide="next">
+	    <span class="carousel-control-next-icon"></span>
+	  </a>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+
+      <div class="col col-lg-4 mt-5 mb-3">
+        <h2 class="text-center">Products & services</h2>
+        <p class="text-center">
+          The products and services by Costi include: ASAS Parties, Costi Entertainment, and San Jose Tips
+        </p>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center" id="quickLinks">
+      <a href="ASAS.html" class="col col-lg-2 boxShadow">
+          <img src="../img/ASAS.jpg" style="width:100%;" />
+          <h3>ASAS</h3>
+          <p>
+            Learn more about ASAS and its events. Get to know when the next ASAS party will be as well as additional information that may be helpful in or before the party.
+          </p>
+      </a>
+
+      <a href="Entertainment.html" class="col col-lg-2 boxShadow">
+        <img src="../img/Entertainment.jpg" style="width:100%;" />
+        <h3>Costi Entertainment</h3>
+        <p>
+          Learn about the cast behind your favorite series and learn about new and upcoming episodes.
+        </p>
+      </a>
+
+      <a href="ASAS.html" class="col col-lg-2 boxShadow">
+        <img src="../img/SJ Tips.jpg" style="width:100%;" />
+        <h3>San Jose Tips</h3>
+        <p>
+          Get to know the benefits of living in San Jose! Learn about new and helpful services available to San Jose Citizens.
+        </p>
+      </a>
+    </div>
+  </div>
+  <footer id="footer" style="margin-top:20px;">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="../img/logo 4 - Dark.png" height="24px" />
+          <small class="d-block mb-3 text-muted">© 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Series</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Ethan Show</a></li>
+            <li><a class="text-muted" href="#">Amal+</a></li>
+            <!--<li><a class="text-muted" href="#">Georges Time</a></li>-->
+            <li><a class="text-muted" href="#">Video Highlights</a></li>
+            <li><a class="text-muted" href="#">ASAS Invites</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>YouTube</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="https://www.youtube.com/channel/UC1eazOOhoQeiiQZftMxg51Q">My San Jose</a></li>
+            <li><a class="text-muted" href="https://www.youtube.com/channel/UCNBpX9wlGcB59vnv1pdogTA">Costi Entertainment</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Test Data</a></li>
+            <li><a class="text-muted" href="#">ASAS Events</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Costi Inc.</a></li>
+            <li><a class="text-muted" href="#">Videos</a></li>
+            <li><a class="text-muted" href="#">Costi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/Javascript.js"></script>
+</body>
+
+</html>

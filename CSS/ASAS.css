@@ -1,0 +1,32 @@
+#ASASBanner{
+  border-radius: 0;
+  height:600px;
+  padding:0;
+  background-image: url("../img/ASASBG.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.inner{
+  text-align:center;
+  width:60%;
+  margin-left:20%;
+  position: absolute;
+  top: 120px;
+}
+.cover-heading{
+  font-weight: bold;
+  font-size: 4rem;
+}
+.whiteGradient{
+  background: linear-gradient(rgba(252, 252, 252,0), rgba(252, 252, 252,0), rgba(252, 252, 252,0),  rgba(252, 252, 252,0), rgba(255, 255, 255,1));
+  height:100%;
+  width:100%;
+}
+#Games div h2{
+  font-size: 18px;
+  text-align:center;;
+}
+#videos{
+  position:fixed;
+}

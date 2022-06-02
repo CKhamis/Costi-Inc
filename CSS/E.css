@@ -1,0 +1,66 @@
+#EntertainmentBanner {
+  border-radius: 0;
+  padding: 0;
+  maargin: 0;
+  height: 600px;
+  overflow: hidden;
+}
+#bannerVideo {
+  width: 100%;
+  z-index: -1;
+}
+.inner {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  position: absolute;
+}
+.btn-outline-secondary {
+  color: #212529;
+  border-color: #212529;
+}
+#showsContainer a {
+  color: black;
+  padding: 0;
+  margin: 10px 10px 0 10px;
+}
+#showsContainer p, #showsContainer h3 {
+  padding: 5px 15px 5px 15px;
+}
+#showsContainer a img {
+  width: 100%;
+}
+/* member cards */
+.actors div {
+  padding: 0;
+}
+.actors img {
+  width: 100%;
+}
+#actorList div div {
+  padding: 0 5px 0 5px;
+}
+#actorList div div p, #actorList div div h2 {
+  padding: 5px 15px 5px 15px;
+}
+/*Show Items*/
+.showActionsCardContainer {
+  padding: 15px 15px 0 0;
+  height: 100%;
+}
+.showActionsCard{
+  background-color: white;
+  height:100%;
+}
+.showActionsCard p, .showActionsCard h3 {
+  padding: 10px 15px 0 15px;
+}
+.showActionsCardContainer a {
+  margin: 10px;
+}
+.showContainer .row {
+  margin: 0 5px 0 5px;
+}
+.showInfo {
+  color: white;
+}

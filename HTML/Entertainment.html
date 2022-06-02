@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Costi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../sources/d3/d3.min.js"></script>
+  <link rel="stylesheet" href="../sources/Bootstrap/css/bootstrap.min.css">
+  <script src="../sources/jquerry/jquery-3.3.1.min.js"></script>
+  <script src="../sources/Bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/Main.css" />
+  <link rel="stylesheet" href="../CSS/E.css" />
+</head>
+
+<body style="margin:0;padding:0;">
+  <nav class="navbar navbar-expand-sm fixed-top" id="nav">
+    <a class="navbar-brand" href="Home.html" id="icon">
+	    <img src="..\img\logo 4 - Dark.png" alt="logo" style="width:40px;">
+	  </a>
+    <span class="navbar-text">
+			Costi Inc.
+		</span>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="Home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="Entertainment.html">Entertainment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ASAS.html">ASAS</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="jumbotron" id="EntertainmentBanner">
+    <video autoplay preload="true" loop="loop" muted id="bannerVideo">
+      <source src="../img/Intro 2018.mp4" type="video/mp4">
+      your browser does not support the video tag.
+    </video>
+    <div role="main" class="inner cover" style="top: 183px;">
+      <h1 class="cover-heading" id="bannerTitle">Costi Entertainment • Entertainment at its best</h1>
+      <p class="lead">Costi Entertainment is a studio that films shows like Amal+, the Ethan Show, and more!</p>
+      <p class="lead">
+        <a href="https://www.youtube.com/channel/UCNBpX9wlGcB59vnv1pdogTA" class="btn btn-outline-secondary">See Youtube Page</a>
+        <a href="#showsContainer" class="btn btn-outline-secondary">See Shows</a>
+      </p>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-md-center" id="showsContainer">
+
+      <a href="#" class="col-sm-12 col-md-6 col-lg-2 boxShadow">
+          <img src="../img/Amal+ Cover.png"/>
+          <h3>Amal +</h3>
+          <p>
+            Amal + is a show all about your favorite actor, Amal! Amal sings, dances, and even talks with Terence. Each epispde features different people, places, songs, and events! Amal + will soon cross over with the Ethan Show
+          </p>
+        </a>
+
+      <a href="#" class="col-sm-12 col-md-6 col-lg-2 boxShadow">
+        <img src="../img/Ethan Show Cover.png"/>
+        <h3>The Ethan Show</h3>
+        <p>
+          The Ethan Show is a show about the many activities Ethan does throughout his day. This show is seperated into parts called segments, which could range from the news to talking with Terence himself.
+        </p>
+      </a>
+
+      <a href="ASAS.html" class="col-sm-12 col-md-6 col-lg-2 boxShadow">
+        <img src="../img/SJ Tips Cover.png"/>
+        <h3>San Jose Tips</h3>
+        <p>
+          Learn about some of San Jose's best services and features in simple instructional videos.
+        </p>
+      </a>
+    </div>
+  </div>
+  <div class="container-fluid mt-5">
+    <div class="container col-sm-10 col-md-8 mb-5 text-center" id="actorInfo">
+      <h2>Meet our Featured Actors</h2>
+      <p>Our actors feature in many Costi-produced videos ranging from small sketches to our mainstream shows like the Ethan Show. These actors often appear in multiple productions</p>
+    </div>
+    <hr />
+    <div class="container-fluid actors" id="actorList">
+      <div class="row">
+
+        <div class="col-lg-2 col-md-4">
+          <img src="../img/Amal Image.jpg" alt="Amal">
+          <h2>Amal</h2>
+          <p>
+            Amal fearutes in many sketches and even has her own show called Amal +.
+          </p>
+        </div>
+
+        <div class="col-lg-2 col-md-4">
+          <img src="../img/Alex Image.jpg" alt="Alex">
+          <h2>Alex</h2>
+          <p>
+            Alex is an actor that plays a wide range of roles in varoius videos. Alex has appeared in the Ethan Show and other videos. Alex does not have any major roles in any of the media that he is in.
+          </p>
+        </div>
+
+        <div class="col-lg-2 col-md-4">
+          <img src="../img/Tina Image.jpg" alt="Christina">
+          <h2>Christina</h2>
+          <p>
+            Christina is a minor actor that plays various parts in our shows and individual vidoes. She makes appearances in Amal + and other videos.
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <img src="../img/ethan.png" alt="Ethan">
+          <h2>Ethan</h2>
+          <p>
+            Ethan is our most active actor and plays the main role in the Ethan Show. Ethan does not make appearances in any other show so far.
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <img src="../img/Georges Image.jpg" alt="Georges">
+          <h2>Georges</h2>
+          <p>
+            Georges plays minor parts in a wide range of videos. He is present in Amal +, the Ethan Show, and others!
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <img src="../img/Costi Image.jpg" alt="Kristi">
+          <h2>Kristi</h2>
+          <p>Kristi is the main actor in the My San Jose Series. She also makes breif appearances in sketches and other videos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-sm-10 col-md-8 text-center" id="showInfo">
+    <h2>Recent Videos</h2>
+    <p>Costi Entertainment is home to many shows and sketches.</p>
+  </div>
+  <hr />
+
+  <div class="container-fluid">
+    <div id="episodeListContainer" class="row">
+
+    </div>
+  </div>
+
+
+  <footer id="footer" style="margin-top:20px;">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="../img/logo 5 - Dark.png" height="24px" />
+          <small class="d-block mb-3 text-muted">© 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Series</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Ethan Show</a></li>
+            <li><a class="text-muted" href="#">Amal+</a></li>
+            <!--<li><a class="text-muted" href="#">Georges Time</a></li>-->
+            <li><a class="text-muted" href="#">Video Highlights</a></li>
+            <li><a class="text-muted" href="#">ASAS Invites</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>YouTube</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="https://www.youtube.com/channel/UC1eazOOhoQeiiQZftMxg51Q">My San Jose</a></li>
+            <li><a class="text-muted" href="https://www.youtube.com/channel/UCNBpX9wlGcB59vnv1pdogTA">Costi Entertainment</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Test Data</a></li>
+            <li><a class="text-muted" href="#">ASAS Events</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Costi Inc.</a></li>
+            <li><a class="text-muted" href="#">Videos</a></li>
+            <li><a class="text-muted" href="#">Costi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/Javascript.js">
+    var myVideo = document.getElementById("bannerVideo");
+    myVideo.play()
+  </script>
+</body>
+
+</html>
